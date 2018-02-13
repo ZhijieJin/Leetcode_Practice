@@ -18,7 +18,7 @@ class solution:
         #sorted(x)[::1]  returns ascendant sorted array                          
         
         sorted_nums = [0]*len(nums)    #create a List of length len(nums) and initialize it to 0
-        for idx in range(len(nums)):
+        for idx in range(len(nums)):   #iterating through 0:len(nums)-1
             if idx == 0: sorted_nums[sort[idx][1]]="First"
             elif idx == 1: sorted_nums[sort[idx][1]] = "second"
             elif idx == 2: sorted_nums[sort[idx][1]] = "third"
